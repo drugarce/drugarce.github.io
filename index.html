@@ -9,14 +9,23 @@
     <link href='//fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
     <style>
+        html, body, div, h1, p { 
+            padding: 0;
+            margin: 0;
+        }
+        html, body {
+            height: 100% 
+        }
         body {
             background: url(img/paper.png) repeat;
             font-family: 'Special Elite', cursive;
             font-size: 2em;
+            text-align: center;
         }
         div {
-            text-align: center;
-            padding-top: 7em
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
         }
     </style>
     <!--[if lt IE 9]>
